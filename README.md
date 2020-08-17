@@ -5,7 +5,7 @@
 
 
 
-### Description
+## Description
 #### 1.	Aim
 
 Develop a distributed system that can build and support multiplayer games (two-player games).
@@ -52,7 +52,7 @@ The situation of King's consecutive jump and that of soldiers' consecutive jumps
 
 
 
-### Implementation
+## Implementation
 
  
 Fig.2 UML Diagram
@@ -102,7 +102,7 @@ It is the the thread class responsible for interacting with users, and it will b
 
 
 
-### protocal
+## protocal
 1.	First, the game is initialized. The initialization process will determines who is red and who is black.
 
 Server -> Client : StartRed            
