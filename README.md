@@ -6,7 +6,7 @@
 
 
 
-## Description
+### Description
 #### 1.	Aim
 
 Develop a distributed system that can build and support multiplayer games (two-player games).
@@ -18,7 +18,6 @@ It should be design an application-level agreement for the system, determine the
 Each player should be able to contact at least one other player through the server and play games involving multiple rounds or rounds. Allow ongoing games, that is, once a game has been played, allow the game to restart.
 
 #### 2.	Rules
-
 ![Sample of chess board](https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=draughts&step_word=&hs=2&pn=0&spn=0&di=440&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=0&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=undefined&cs=847775997%2C2337169056&os=2014379064%2C720411811&simid=4163863069%2C635944512&adpicid=0&lpn=0&ln=101&fr=&fmq=1597628579734_R&fm=&ic=undefined&s=undefined&hd=undefined&latest=undefined&copyright=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=http%3A%2F%2Fwww.119you.com%2Fupload%2Fresources%2Fimage%2F2016%2F01%2F21%2Fuc-10865921_500x500.jpg%3F1453317824000&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3B88ly57_z%26e3Bv54AzdH3F16w72ipfkwppsjfpqAzdH3F&gsm=1&rpstart=0&rpnum=0&islist=&querylist=&force=undefined)
 
 1.	The chess board is 8 * 8, 10 * 10, or 12 * 12, based on the different rules, and on this project, I will choose the 10 * 10.
@@ -54,7 +53,7 @@ The situation of King's consecutive jump and that of soldiers' consecutive jumps
 
 
 
-## Implementation
+### Implementation
 
  
 Fig.2 UML Diagram
@@ -104,7 +103,7 @@ It is the the thread class responsible for interacting with users, and it will b
 
 
 
-## protocal
+### protocal
 1.	First, the game is initialized. The initialization process will determines who is red and who is black.
 
 Server -> Client : StartRed            
