@@ -3,7 +3,6 @@
 
 #### Option 1      Draughts_Game
 
-<font color=Blue>我是蓝色</font>
 
 
 ### Description
