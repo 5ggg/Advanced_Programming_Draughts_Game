@@ -2,9 +2,10 @@
 ## Assessed Coursework
 
 #### Option 1      Draughts_Game
-
-
-
+  
+---  
+---   
+---   
 ## Description
 #### 1.	Aim
 
